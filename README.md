@@ -19,7 +19,7 @@ The project uses the
 dataset from Berkeley Earth (via Kaggle). The notebooks read the following CSV
 files (mounted from Google Drive in Colab):
 
-- `GlobalTemperatures.csv` — global average land/ocean temperatures over time
+- `GlobalTemperatures.csv`: global average land/ocean temperatures over time
 - `GlobalLandTemperaturesByCity.csv`
 - `GlobalLandTemperaturesByCountry.csv`
 - `GlobalLandTemperaturesByMajorCity.csv`
@@ -32,7 +32,7 @@ Kaggle and update the file paths in the notebooks to point to your local copy
 
 ## Notebooks
 
-### `CSE_587_ProjectPhase1.ipynb` — Exploratory Data Analysis
+### `CSE_587_ProjectPhase1.ipynb`: Exploratory Data Analysis
 
 Surveys all five temperature datasets to identify the most relevant one and
 performs EDA on the global temperatures data. Operations include:
@@ -45,7 +45,7 @@ performs EDA on the global temperatures data. Operations include:
 - Geospatial visualization of data-point locations on a map, including data
   binned by latitude (`plotly`)
 
-### `Phase_2.ipynb` — Time-Series Analysis and Forecasting
+### `Phase_2.ipynb`: Time-Series Analysis and Forecasting
 
 Builds on the cleaned data to study warming trends over the years:
 
